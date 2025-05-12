@@ -13,6 +13,7 @@ function enviarMensagem() {
   }
 
   fetch("https://script.google.com/macros/s/AKfycbztV2MDiCYCXJbbaiOyZgI59lnVK7axDmA3uit8hdv_fNmE2i3UpSx-7tyWBoZXUr6SqA/exec", {
+
     method: "POST",
     body: JSON.stringify({
       user: usuario,
